@@ -10,6 +10,7 @@ const GlobalStyle = createGlobalStyle`
 
 html, body {
   max-width: 100vw;
+  min-height: calc(100vh - env(safe-area-inset-bottom));
   overflow-x: hidden;
   position: relative;
   overscroll-behavior-y: none;

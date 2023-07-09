@@ -8,7 +8,7 @@ export default function App({ Component, pageProps }: AppProps) {
   return (
     <StyledProvider theme={styledTheme}>
       <GlobalStyle />
-      <Component {...pageProps} />
+        <Component {...pageProps} />
     </StyledProvider>
   );
 }
